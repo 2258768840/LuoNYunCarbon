@@ -1,0 +1,50 @@
+<html>
+     <from action=""method="post">
+     <meta charset="utf-8">
+     <head>
+          <title>The Lake</title>
+     </head>
+     <!--LOGIN INFORMATION-->
+     <body>
+          <h4>CONNECT NIS NETWORK SYSTEM</h4><br>
+          <h4>SHOW YOU ID IN SYSTEM</h4>
+          <td hight="30">USER ID:<input type="text"name="text2"/></td>
+          <td>USER PASSWORD:<input type="text"name="text2"/></td>
+          <td><input name="login"type="submit"value="COMFORM"/></td>
+     </body>
+     </from>
+<?php
+    if(isset($_POST['login']))//one touch button
+    {
+      $user_name=$_POST['USER ID'];//ID Taking
+      $user_name=$_POST['USER PASSWORD'];//password taking
+      if($user_name=="LuoNYun"&&$user_pass=="LunTex10124")//index 默认
+      {
+        echo"LOGIN COMPLTE";//CUSH ON U
+        return;//Rewrite & HOPICO
+      }
+        else
+         echo"LOGIN WRONG";//CUDA 2.1Beta
+      }
+?>
+</html>
+<html>
+     <h4>THE LAKE Cube Online System</h4><br>
+     <h4>Welcome To The Lake</h4><br>
+     <h4>Mr.Wonderboom,The Lake Next God</h4><br>
+     <td hight="30">You Name:<input type="text"name="text2"/></td>
+     <td>You Nember:<input type="text"name="text2"/></td>
+     <td><input name="login"type="submit"value="COMFORM"/></td>
+</html>
+<?php
+     if(isset($_POST['login']))//one touch button
+?>
+<?php
+    echo"42"
+?>
+<html>
+     <meta charset="UTF-8">
+     <h1>OLS 1.0.0.10<h1>
+     <h5>LuoNYun Unity Neture Extreme OS_12C<h5>
+     </shell_exec=="02">
+</html>
