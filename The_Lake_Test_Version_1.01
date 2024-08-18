@@ -16,10 +16,10 @@
 <?php
     if(isset($_POST['login']))//one touch button
     {
-      $user_name=$_POST['USER ID'];//ID Taking
-      $user_name=$_POST['USER PASSWORD'];//password taking
-      if($user_name=="LuoNYun"&&$user_pass=="LunTex10124")//index 默认
-      {
+         $user_name=$_POST['USER PASSWORD'];//password taking
+         if($user_name=="LuoNYun"&&$user_pass=="LunTex10124")//index 默认
+         {
+           $user_name=$_POST['USER ID'];//ID Taking
         echo"LOGIN COMPLTE";//CUSH ON U
         return;//Rewrite & HOPICO
       }
